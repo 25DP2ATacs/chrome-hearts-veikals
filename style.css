@@ -1,0 +1,184 @@
+/*atstarpes*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E8E6;
+    color: #191919;
+}
+
+/*augseja dala*/
+.site-header {
+    background-color: white;
+    padding: 12px 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+  width: 150px;   
+  height: auto;
+}
+/*navigcija*/
+.main-nav a {
+    text-decoration: none;
+    color: #191919;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.main-nav a:hover {
+    color: #3A6EA5;
+}
+
+
+.hero {
+    background-image: url("images/bilde.png");
+    background-position: center;
+    height: 310px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-overlay {
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 42px;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #191919;
+}
+
+/*poga*/
+.btn {
+    background-color: #553A41;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #553A41;
+}
+
+/*produkti*/
+.products-section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/*virsraksti*/
+.products-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #191919;
+}
+
+/*produktu rezgis*/
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+
+.product-card {
+    text-align: center;
+    padding: 5px;
+}
+
+
+.product-card img {
+    width: 75%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    
+}
+
+
+.product-card h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+
+.old-price {
+    text-decoration: line-through;
+    color: #191919;
+    font-size: 14px;
+}
+
+
+.new-price {
+    color: #191919;
+    font-size: 22px;
+}
+
+/*meklesanas dala*/
+.store-controls {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/*meklesana*/
+.store-controls input {
+    padding: 8px;
+    width: 75%;
+    border: 1px solid #191919;
+}
+
+/*filtrs*/
+.store-controls select {
+    padding: 8px;
+    width: 20%;
+    border: 1px solid #191919;
+}
+
+/*landing lapas footers augsa*/
+.footer-top {
+    background-color: white;
+    padding: 20px;
+}
+
+/*landing lapas footers apaksa*/
+.footer-bottom {
+    background-color: #E6E8E6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*store lapa*/
+.store-footer {
+    background-color: #E6E8E6;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
